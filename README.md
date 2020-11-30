@@ -30,3 +30,9 @@ for event in events:
     evd = cat['events'][event]
     print(event,evd['GPS'],evd['mass_1_source'],evd['mass_2_source'],evd['network_matched_filter_snr'],evd['far'])
 ```
+
+
+## Notes:
+PyCBC package does not have info on OGC1/OGC2
+- https://pycbc.org/pycbc/latest/html/catalog.html
+- https://github.com/gwastro/pycbc/blob/master/pycbc/catalog/catalog.py
