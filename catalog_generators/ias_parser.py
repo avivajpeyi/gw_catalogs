@@ -6,7 +6,8 @@ import pandas as pd
 from bilby.gw.conversion import (
     chirp_mass_and_mass_ratio_to_total_mass,
     luminosity_distance_to_redshift,
-    total_mass_and_mass_ratio_to_component_masses
+    total_mass_and_mass_ratio_to_component_masses,
+    symmetric_mass_ratio_to_mass_ratio
 )
 from tqdm import tqdm
 
@@ -104,9 +105,14 @@ def convert_df_to_gwosc_df(df: pd.DataFrame) -> pd.DataFrame:
     # rename
     converted_df['GPS'] = converted_df['tc']
     converted_df['chirp_mass'] = converted_df['mchirp']
-    converted_df['mass_ratio'] = converted_df['eta']
+    converted_df['symmetric_mass_ratio'] = converted_df['eta']
     converted_df['luminosity_distance'] = converted_df['DL']
+    converted_df['ra'] = converted_df['RA']
+    converted_df['dec'] = converted_df['DEC']
     # re-parameterisation
+    converted_df['mass_ratio']= \
+        symmetric_mass_ratio_to_mass_ratio(converted_df['symmetric_mass_ratio'])
+
     converted_df['total_mass'] = \
         chirp_mass_and_mass_ratio_to_total_mass(
             converted_df['chirp_mass'],
