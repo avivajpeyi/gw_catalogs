@@ -55,9 +55,9 @@ def summarise_all_events(events_samples_dict):
 def load_event_samples_to_dataframes(data_dir):
     """Load LVS posterior files into dict of df"""
     events_samples_dict = {}
-    files = glob.glob(os.path.join(data_dir, "*.hdf5"))
+    files = glob.glob(os.path.join(data_dir, "*.h*5"))
     for file in tqdm(files, desc="Reading LVC Posteriors", total=len(files)):
-        event_name = os.path.basename(file).replace(".hdf5", "")
+        event_name = os.path.basename(file).split(".h")[0]
         event_name = event_name.split("_")[0]
         event_hdf = h5py.File(file, mode='r')
         event_dict = {k: event_hdf[f"Overall_posterior"][k][()] for k in
