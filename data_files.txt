@@ -1,4 +1,9 @@
 https://www.gw-openscience.org/eventapi/json/allevents/ -O data/lvc_catalog.json
+https://dcc.ligo.org/public/0157/P1800370/005/GW150914_GWTC-1.hdf5 -O data/lvc_search/
+https://dcc.ligo.org/public/0157/P1800370/005/GW151012_GWTC-1.hdf5 -O data/lvc_search/
+https://dcc.ligo.org/public/0157/P1800370/005/GW151012_GWTC-1.hdf5 -O data/lvc_search/
+
+
 https://github.com/gwastro/2-ogc/blob/master/posterior_samples/H1L1V1-EXTRACT_POSTERIOR_150914_09H_50M_45UTC-0-1.hdf?raw=true -O data/pycbc_search/H1L1V1-EXTRACT_POSTERIOR_150914_09H_50M_45UTC-0-1.hdf
 https://github.com/gwastro/2-ogc/blob/master/posterior_samples/H1L1V1-EXTRACT_POSTERIOR_151011_19H_27M_49UTC-22-1.hdf?raw=true -O data/pycbc_search/H1L1V1-EXTRACT_POSTERIOR_151011_19H_27M_49UTC-22-1.hdf
 https://github.com/gwastro/2-ogc/blob/master/posterior_samples/H1L1V1-EXTRACT_POSTERIOR_151012_09H_54M_43UTC-5-1.hdf?raw=true -O data/pycbc_search/H1L1V1-EXTRACT_POSTERIOR_151012_09H_54M_43UTC-5-1.hdf

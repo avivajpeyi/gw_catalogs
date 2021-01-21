@@ -1,24 +1,17 @@
 import glob
 import os
 
-import numpy as np
+import h5py
 import pandas as pd
 from bilby.gw.conversion import (
-    chirp_mass_and_mass_ratio_to_total_mass,
-    luminosity_distance_to_redshift,
-    total_mass_and_mass_ratio_to_component_masses
+    luminosity_distance_to_redshift
 )
 from tqdm import tqdm
-
-import h5py
-import numpy as np
-import pandas as pd
 
 from .event_keys import gwosc_keys
 from .utils import dict_to_json, summarise_samples
 
 DATA_DIR = "../data/lvc_search/"
-
 
 SEARCH_PARAMS = {
     "luminosity_distance_Mpc": "luminosity distance [Mpc]",
@@ -67,7 +60,8 @@ def load_event_samples_to_dataframes(data_dir):
         event_name = os.path.basename(file).replace(".hdf5", "")
         event_name = event_name.split("_")[0]
         event_hdf = h5py.File(file, mode='r')
-        event_dict = {k: event_hdf[f"Overall_posterior"][k][()] for k in SEARCH_PARAMS.keys()}
+        event_dict = {k: event_hdf[f"Overall_posterior"][k][()] for k in
+                      SEARCH_PARAMS.keys()}
         event_df = pd.DataFrame(event_dict)
         events_samples_dict[event_name] = event_df
     return events_samples_dict
@@ -85,7 +79,7 @@ def convert_df_to_gwosc_df(df: pd.DataFrame) -> pd.DataFrame:
     # rename
     converted_df['mass_1'] = converted_df['m1_detector_frame_Msun']
     converted_df['mass_2'] = converted_df['m2_detector_frame_Msun']
-    converted_df['mass_ratio'] = converted_df['mass_2']/converted_df['mass_1']
+    converted_df['mass_ratio'] = converted_df['mass_2'] / converted_df['mass_1']
     converted_df['ra'] = converted_df['right_ascension']
     converted_df['dec'] = converted_df['declination']
     return converted_df
