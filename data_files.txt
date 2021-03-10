@@ -1,8 +1,60 @@
 https://www.gw-openscience.org/eventapi/json/allevents/ -O data/lvc_catalog.json
-https://dcc.ligo.org/public/0157/P1800370/005/GW150914_GWTC-1.hdf5 -O data/lvc_search/
-https://dcc.ligo.org/public/0157/P1800370/005/GW151012_GWTC-1.hdf5 -O data/lvc_search/
-https://dcc.ligo.org/public/0157/P1800370/005/GW151012_GWTC-1.hdf5 -O data/lvc_search/
+https://dcc.ligo.org/public/0157/P1800370/005/GW150914_GWTC-1.hdf5 -O data/lvc_search/gwtc1/GW150914_GWTC-1.hdf5
+https://dcc.ligo.org/public/0157/P1800370/005/GW151012_GWTC-1.hdf5 -O data/lvc_search/gwtc1/GW151012_GWTC-1.hdf5
+https://dcc.ligo.org/public/0157/P1800370/005/GW151012_GWTC-1.hdf5 -O data/lvc_search/gwtc1/GW151012_GWTC-1.hdf5
+https://dcc.ligo.org/public/0157/P1800370/005/GW150914_GWTC-1.hdf5 -O data/lvc_search/gwtc1/GW150914_GWTC-1.hdf5
+https://dcc.ligo.org/public/0157/P1800370/005/GW151012_GWTC-1.hdf5 -O data/lvc_search/gwtc1/GW151012_GWTC-1.hdf5
+https://dcc.ligo.org/public/0157/P1800370/005/GW151226_GWTC-1.hdf5 -O data/lvc_search/gwtc1/GW151226_GWTC-1.hdf5
+https://dcc.ligo.org/public/0157/P1800370/005/GW170104_GWTC-1.hdf5 -O data/lvc_search/gwtc1/GW170104_GWTC-1.hdf5
+https://dcc.ligo.org/public/0157/P1800370/005/GW170608_GWTC-1.hdf5 -O data/lvc_search/gwtc1/GW170608_GWTC-1.hdf5
+https://dcc.ligo.org/public/0157/P1800370/005/GW170729_GWTC-1.hdf5 -O data/lvc_search/gwtc1/GW170729_GWTC-1.hdf5
+https://dcc.ligo.org/public/0157/P1800370/005/GW170809_GWTC-1.hdf5 -O data/lvc_search/gwtc1/GW170809_GWTC-1.hdf5
+https://dcc.ligo.org/public/0157/P1800370/005/GW170814_GWTC-1.hdf5 -O data/lvc_search/gwtc1/GW170814_GWTC-1.hdf5
+https://dcc.ligo.org/public/0157/P1800370/005/GW170817_GWTC-1.hdf5 -O data/lvc_search/gwtc1/GW170817_GWTC-1.hdf5
+https://dcc.ligo.org/public/0157/P1800370/005/GW170818_GWTC-1.hdf5 -O data/lvc_search/gwtc1/GW170818_GWTC-1.hdf5
+https://dcc.ligo.org/public/0157/P1800370/005/GW170823_GWTC-1.hdf5 -O data/lvc_search/gwtc1/GW170823_GWTC-1.hdf5
 
+https://dcc.ligo.org/public/0169/P2000223/007/GW190408_181802.tar -O data/lvc_search/gwtc2/GW190408_181802.tar
+https://dcc.ligo.org/public/0169/P2000223/007/GW190412.tar -O data/lvc_search/gwtc2/GW190412.tar
+https://dcc.ligo.org/public/0169/P2000223/007/GW190413_052954.tar -O data/lvc_search/gwtc2/GW190413_052954.tar
+https://dcc.ligo.org/public/0169/P2000223/007/GW190413_134308.tar -O data/lvc_search/gwtc2/GW190413_134308.tar
+https://dcc.ligo.org/public/0169/P2000223/007/GW190421_213856.tar -O data/lvc_search/gwtc2/GW190421_213856.tar
+https://dcc.ligo.org/public/0169/P2000223/007/GW190424_180648.tar -O data/lvc_search/gwtc2/GW190424_180648.tar
+https://dcc.ligo.org/public/0169/P2000223/007/GW190425.tar -O data/lvc_search/gwtc2/GW190425.tar
+https://dcc.ligo.org/public/0169/P2000223/007/GW190426_152155.tar -O data/lvc_search/gwtc2/GW190426_152155.tar
+https://dcc.ligo.org/public/0169/P2000223/007/GW190503_185404.tar -O data/lvc_search/gwtc2/GW190503_185404.tar
+https://dcc.ligo.org/public/0169/P2000223/007/GW190512_180714.tar -O data/lvc_search/gwtc2/GW190512_180714.tar
+https://dcc.ligo.org/public/0169/P2000223/007/GW190513_205428.tar -O data/lvc_search/gwtc2/GW190513_205428.tar
+https://dcc.ligo.org/public/0169/P2000223/007/GW190514_065416.tar -O data/lvc_search/gwtc2/GW190514_065416.tar
+https://dcc.ligo.org/public/0169/P2000223/007/GW190517_055101.tar -O data/lvc_search/gwtc2/GW190517_055101.tar
+https://dcc.ligo.org/public/0169/P2000223/007/GW190519_153544.tar -O data/lvc_search/gwtc2/GW190519_153544.tar
+https://dcc.ligo.org/public/0169/P2000223/007/GW190521.tar -O data/lvc_search/gwtc2/GW190521.tar
+https://dcc.ligo.org/public/0169/P2000223/007/GW190521_074359.tar -O data/lvc_search/gwtc2/GW190521_074359.tar
+https://dcc.ligo.org/public/0169/P2000223/007/GW190527_092055.tar -O data/lvc_search/gwtc2/GW190527_092055.tar
+https://dcc.ligo.org/public/0169/P2000223/007/GW190602_175927.tar -O data/lvc_search/gwtc2/GW190602_175927.tar
+https://dcc.ligo.org/public/0169/P2000223/007/GW190620_030421.tar -O data/lvc_search/gwtc2/GW190620_030421.tar
+https://dcc.ligo.org/public/0169/P2000223/007/GW190630_185205.tar -O data/lvc_search/gwtc2/GW190630_185205.tar
+https://dcc.ligo.org/public/0169/P2000223/007/GW190701_203306.tar -O data/lvc_search/gwtc2/GW190701_203306.tar
+https://dcc.ligo.org/public/0169/P2000223/007/GW190706_222641.tar -O data/lvc_search/gwtc2/GW190706_222641.tar
+https://dcc.ligo.org/public/0169/P2000223/007/GW190707_093326.tar -O data/lvc_search/gwtc2/GW190707_093326.tar
+https://dcc.ligo.org/public/0169/P2000223/007/GW190708_232457.tar -O data/lvc_search/gwtc2/GW190708_232457.tar
+https://dcc.ligo.org/public/0169/P2000223/007/GW190719_215514.tar -O data/lvc_search/gwtc2/GW190719_215514.tar
+https://dcc.ligo.org/public/0169/P2000223/007/GW190720_000836.tar -O data/lvc_search/gwtc2/GW190720_000836.tar
+https://dcc.ligo.org/public/0169/P2000223/007/GW190727_060333.tar -O data/lvc_search/gwtc2/GW190727_060333.tar
+https://dcc.ligo.org/public/0169/P2000223/007/GW190728_064510.tar -O data/lvc_search/gwtc2/GW190728_064510.tar
+https://dcc.ligo.org/public/0169/P2000223/007/GW190731_140936.tar -O data/lvc_search/gwtc2/GW190731_140936.tar
+https://dcc.ligo.org/public/0169/P2000223/007/GW190803_022701.tar -O data/lvc_search/gwtc2/GW190803_022701.tar
+https://dcc.ligo.org/public/0169/P2000223/007/GW190814.tar -O data/lvc_search/gwtc2/GW190814.tar
+https://dcc.ligo.org/public/0169/P2000223/007/GW190828_063405.tar -O data/lvc_search/gwtc2/GW190828_063405.tar
+https://dcc.ligo.org/public/0169/P2000223/007/GW190828_065509.tar -O data/lvc_search/gwtc2/GW190828_065509.tar
+https://dcc.ligo.org/public/0169/P2000223/007/GW190909_114149.tar -O data/lvc_search/gwtc2/GW190909_114149.tar
+https://dcc.ligo.org/public/0169/P2000223/007/GW190910_112807.tar -O data/lvc_search/gwtc2/GW190910_112807.tar
+https://dcc.ligo.org/public/0169/P2000223/007/GW190915_235702.tar -O data/lvc_search/gwtc2/GW190915_235702.tar
+https://dcc.ligo.org/public/0169/P2000223/007/GW190924_021846.tar -O data/lvc_search/gwtc2/GW190924_021846.tar
+https://dcc.ligo.org/public/0169/P2000223/007/GW190929_012149.tar -O data/lvc_search/gwtc2/GW190929_012149.tar
+https://dcc.ligo.org/public/0169/P2000223/007/GW190930_133541.tar -O data/lvc_search/gwtc2/GW190930_133541.tar
+
+https://dcc.ligo.org/public/0168/P2000193/002/pesummary_samples.zip -O data/bilby/gwtc1/pesummary_samples.zip
 
 https://github.com/gwastro/2-ogc/blob/master/posterior_samples/H1L1V1-EXTRACT_POSTERIOR_150914_09H_50M_45UTC-0-1.hdf?raw=true -O data/pycbc_search/H1L1V1-EXTRACT_POSTERIOR_150914_09H_50M_45UTC-0-1.hdf
 https://github.com/gwastro/2-ogc/blob/master/posterior_samples/H1L1V1-EXTRACT_POSTERIOR_151011_19H_27M_49UTC-22-1.hdf?raw=true -O data/pycbc_search/H1L1V1-EXTRACT_POSTERIOR_151011_19H_27M_49UTC-22-1.hdf
@@ -34,6 +86,8 @@ https://github.com/gwastro/2-ogc/blob/master/posterior_samples/H1L1V1-EXTRACT_PO
 https://github.com/gwastro/2-ogc/blob/master/posterior_samples/H1L1V1-EXTRACT_POSTERIOR_170818_02H_25M_09UTC-10-1.hdf?raw=true -O data/pycbc_search/H1L1V1-EXTRACT_POSTERIOR_170818_02H_25M_09UTC-10-1.hdf
 https://github.com/gwastro/2-ogc/blob/master/posterior_samples/H1L1V1-EXTRACT_POSTERIOR_170818_09H_34M_45UTC-29-1.hdf?raw=true -O data/pycbc_search/H1L1V1-EXTRACT_POSTERIOR_170818_09H_34M_45UTC-29-1.hdf
 https://github.com/gwastro/2-ogc/blob/master/posterior_samples/H1L1V1-EXTRACT_POSTERIOR_170823_13H_13M_58UTC-2-1.hdf?raw=true -O data/pycbc_search/H1L1V1-EXTRACT_POSTERIOR_170823_13H_13M_58UTC-2-1.hdf
+
+
 https://github.com/jroulet/O2_samples/blob/master/GW150914.npy?raw=true -O data/ias_search/GW150914.npy
 https://github.com/jroulet/O2_samples/blob/master/GW151012.npy?raw=true -O data/ias_search/GW151012.npy
 https://github.com/jroulet/O2_samples/blob/master/GW151216.npy?raw=true -O data/ias_search/GW151216.npy
@@ -56,42 +110,3 @@ https://github.com/jroulet/O2_samples/blob/master/GW170823.npy?raw=true -O data/
 
 
 
-https://dcc.ligo.org/public/0169/P2000223/005/GW190408_181802.tar -O data/lvc_search/
-https://dcc.ligo.org/public/0169/P2000223/005/GW190412.tar -O data/lvc_search/
-https://dcc.ligo.org/public/0169/P2000223/005/GW190413_052954.tar -O data/lvc_search/
-https://dcc.ligo.org/public/0169/P2000223/005/GW190413_134308.tar -O data/lvc_search/
-https://dcc.ligo.org/public/0169/P2000223/005/GW190421_213856.tar -O data/lvc_search/
-https://dcc.ligo.org/public/0169/P2000223/005/GW190424_180648.tar -O data/lvc_search/
-https://dcc.ligo.org/public/0169/P2000223/005/GW190425.tar -O data/lvc_search/
-https://dcc.ligo.org/public/0169/P2000223/005/GW190426_152155.tar -O data/lvc_search/
-https://dcc.ligo.org/public/0169/P2000223/005/GW190503_185404.tar -O data/lvc_search/
-https://dcc.ligo.org/public/0169/P2000223/005/GW190512_180714.tar -O data/lvc_search/
-https://dcc.ligo.org/public/0169/P2000223/005/GW190513_205428.tar -O data/lvc_search/
-https://dcc.ligo.org/public/0169/P2000223/005/GW190514_065416.tar -O data/lvc_search/
-https://dcc.ligo.org/public/0169/P2000223/005/GW190517_055101.tar -O data/lvc_search/
-https://dcc.ligo.org/public/0169/P2000223/005/GW190519_153544.tar -O data/lvc_search/
-https://dcc.ligo.org/public/0169/P2000223/005/GW190521.tar -O data/lvc_search/
-https://dcc.ligo.org/public/0169/P2000223/005/GW190521_074359.tar -O data/lvc_search/
-https://dcc.ligo.org/public/0169/P2000223/005/GW190527_092055.tar -O data/lvc_search/
-https://dcc.ligo.org/public/0169/P2000223/005/GW190602_175927.tar -O data/lvc_search/
-https://dcc.ligo.org/public/0169/P2000223/005/GW190620_030421.tar -O data/lvc_search/
-https://dcc.ligo.org/public/0169/P2000223/005/GW190630_185205.tar -O data/lvc_search/
-https://dcc.ligo.org/public/0169/P2000223/005/GW190701_203306.tar -O data/lvc_search/
-https://dcc.ligo.org/public/0169/P2000223/005/GW190706_222641.tar -O data/lvc_search/
-https://dcc.ligo.org/public/0169/P2000223/005/GW190707_093326.tar -O data/lvc_search/
-https://dcc.ligo.org/public/0169/P2000223/005/GW190708_232457.tar -O data/lvc_search/
-https://dcc.ligo.org/public/0169/P2000223/005/GW190719_215514.tar -O data/lvc_search/
-https://dcc.ligo.org/public/0169/P2000223/005/GW190720_000836.tar -O data/lvc_search/
-https://dcc.ligo.org/public/0169/P2000223/005/GW190727_060333.tar -O data/lvc_search/
-https://dcc.ligo.org/public/0169/P2000223/005/GW190728_064510.tar -O data/lvc_search/
-https://dcc.ligo.org/public/0169/P2000223/005/GW190731_140936.tar -O data/lvc_search/
-https://dcc.ligo.org/public/0169/P2000223/005/GW190803_022701.tar -O data/lvc_search/
-https://dcc.ligo.org/public/0169/P2000223/005/GW190814.tar -O data/lvc_search/
-https://dcc.ligo.org/public/0169/P2000223/005/GW190828_063405.tar -O data/lvc_search/
-https://dcc.ligo.org/public/0169/P2000223/005/GW190828_065509.tar -O data/lvc_search/
-https://dcc.ligo.org/public/0169/P2000223/005/GW190909_114149.tar -O data/lvc_search/
-https://dcc.ligo.org/public/0169/P2000223/005/GW190910_112807.tar -O data/lvc_search/
-https://dcc.ligo.org/public/0169/P2000223/005/GW190915_235702.tar -O data/lvc_search/
-https://dcc.ligo.org/public/0169/P2000223/005/GW190924_021846.tar -O data/lvc_search/
-https://dcc.ligo.org/public/0169/P2000223/005/GW190929_012149.tar -O data/lvc_search/
-https://dcc.ligo.org/public/0169/P2000223/005/GW190930_133541.tar -O data/lvc_search/

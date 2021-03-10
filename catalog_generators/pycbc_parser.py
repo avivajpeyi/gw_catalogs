@@ -18,7 +18,7 @@ from bilby.gw.conversion import (
 )
 from tqdm import tqdm
 
-from .event_keys import gwosc_keys
+from .event_keys import GWOSC_KEYS
 from .utils import dict_to_json, summarise_samples
 
 DATA_DIR = "../data/pycbc_search/"
@@ -127,7 +127,7 @@ def summarise_event_df(event_df):
             float(luminosity_distance_to_redshift(
                 summary[f'luminosity_distance{param_type}']))
 
-    summary = {k: summary.get(k, None) for k in gwosc_keys}
+    summary = {k: summary.get(k, None) for k in GWOSC_KEYS}
     summary['version'] = 1
     summary['reference'] = "https://github.com/gwastro/2-ogc"
     summary['catalog.shortName'] = "PyCBC"

@@ -11,7 +11,7 @@ from bilby.gw.conversion import (
 )
 from tqdm import tqdm
 
-from .event_keys import gwosc_keys
+from .event_keys import GWOSC_KEYS
 from .utils import dict_to_json, summarise_samples
 
 DATA_DIR = "../data/ias_search/"
@@ -145,7 +145,7 @@ def summarise_event_df(event_df):
             summary[f'{key}_source{param_type}'] = \
                 summary[f"{key}{param_type}"] / (1 + summary[f'redshift{param_type}'])
 
-    summary = {k: summary.get(k, None) for k in gwosc_keys}
+    summary = {k: summary.get(k, None) for k in GWOSC_KEYS}
     summary['version'] = 1
     summary['reference'] = "https://github.com/jroulet/O2_samples/"
     summary['catalog.shortName'] = "IAS"

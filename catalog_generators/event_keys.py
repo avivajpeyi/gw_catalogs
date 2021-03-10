@@ -1,4 +1,4 @@
-gwosc_keys = [
+GWOSC_KEYS = [
     'GPS',
     'catalog.shortName',
     'chi_eff',
@@ -50,3 +50,29 @@ gwosc_keys = [
     'total_mass_source_upper',
     'version'
 ]
+
+PARAMETERS = {
+    'mass_1_source': '$m_1^{\\mathrm{source}}$',
+    'mass_2_source': '$m_2^{\\mathrm{source}}$',
+    'mass_ratio': '$q$',
+    'a_1': '$a_1$',
+    'a_2': '$a_2$',
+    'cos_tilt_1': '$\\cos \\mathrm{tilt}_1$',
+    'cos_tilt_2': '$\\cos \\mathrm{tilt}_2$',
+    'phi_12': '$\\phi_{12}$',
+    'phi_jl': '$\\phi_{JL}$',
+    'luminosity_distance': '$d_L$',
+    'redshift': '$z$',
+    'spin_1x': '$\\mathrm{S}_{1x}$',
+    'spin_1y': '$\\mathrm{S}_{1y}$',
+    'spin_1z': '$\\mathrm{S}_{1z}$',
+    'spin_2x': '$\\mathrm{S}_{2x}$',
+    'spin_2y': '$\\mathrm{S}_{2y}$',
+    'spin_2z': '$\\mathrm{S}_{2z}$',
+    'ra': "$ra$",
+    'dec': "$dec$",
+    'incl': "$incl$",
+    'geocent_time': "$t_{c}$",
+}
+
+REQUIRED_PARAMETERS = set([p for p in PARAMETERS.keys()])
